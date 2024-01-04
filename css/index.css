@@ -262,6 +262,25 @@ body {
     background-color: var(--background);
 }
 
+/* Regresar */
+.retornar_container {
+    text-align: center;
+}
+.retornar_container>a {
+    text-align: center;
+    text-decoration: none;
+    color: var(--orange);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.retornar_container>a:hover {
+    color: var(--background);
+    background-color: var(--blue);
+    border-radius: 5px;
+    padding: 15px 20px;
+    transition: 0.5s;
+
+}
 @keyframes moveHero {
     0% {
         transform: translateY(0%);
